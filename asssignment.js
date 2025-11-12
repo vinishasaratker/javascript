@@ -13,8 +13,8 @@ console.log(" sum is"+(a+b))
 
 //3. Ask the user for two numbers with prompt(), convert to Number, and print their sum in
 //console.log.
-var num1 = prompt("Enter first number:");
-varnum2 = prompt("Enter second number:");
+ var num1 = prompt("Enter first number:");
+ varnum2 = prompt("Enter second number:");
 num1 = Number(num1);
 num2 = Number(num2);
 
@@ -36,6 +36,6 @@ console.log(++p)
 // 1. alert-- info dene ke liye  
 // prompt()--
 function  bom(){
-alert(" welcome to this website ")
+alert(" welcome to this website.. ")
 }
 bom();
