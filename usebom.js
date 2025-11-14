@@ -11,7 +11,7 @@
 //    let ans1=  prompt(" enter number 1")
 //    let ans2= prompt(" enter number2")
 //   alert (parseInt(ans1)+ parseInt(ans2))
-     // there three method to conver integer to string
+     // there three method to convert integer to string
   //1 number()
   // 2. parseInt() 
   // 3. parsefloat()

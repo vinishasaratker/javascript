@@ -27,7 +27,7 @@ function passwardchecking(){
 //  alert Grade A/B/C/F.
  function creategrade(){
   let marks=prompt(" enter your marks")
-  if(marks>=75){
+  if(marks<=100 && marks>=75){
     alert(" your grade is 'A' ")
   }
   else if(marks>50 && marks<75){

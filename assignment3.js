@@ -1,35 +1,3 @@
-// string is a primitive data type  it is used to represent text in double
-//or single code
-// methods of string
-
-// function strings(){
-// alert("hiiii.......")
-
-// let str="hello cybrom"
-// 1...length name ka atribute hota hain-- jo length btata hai...
-// alert(str.length)
-// 2...  concatination--- do ya do se jyada string ko ek bnati hai
-// let v1="hi"
-// let v2="vini"
-// let v3="hru"
-// alert(v1.concat(v2,v3))
-
-
-//3..-- slice()
-// let text="i am vinisha saratker"
-// alert(text.slice(2,8))
-// alert(text.slice(5,12))
-// slice me indexing to 2 se start hoti hai lekin last me ek kam kar deta hai
-
-//+++*******
-//let fruit=["apple","banana","mango",6]// array is a collection of hetrogenious type of element 
-// string ko array me convert krna hai
-// split-- separate 
-// let  laptop= "asus lenovo hp dell mac"
-// console.log(laptop.split(' '))
-// ///split
-// }
-// strings()
 function ccount(){
 // 1. Character count (prompt + alert)
 // Prompt the user for a word (use prompt()), then alert the number of
@@ -38,8 +6,8 @@ let word=prompt(" enter a word");
 let count=word.length;
 alert(count);
 
-}
 
+}
 
 function Que2(){
 // 2. Full name using .concat()
@@ -48,12 +16,9 @@ function Que2(){
 // Hello, &lt;fullName&gt;.
 let firstname=prompt(" enter your first name")
 let secondname=prompt(" enter your last name")
-let fullName1 = firstName.concat(" ", lastName);
-
+let fullName1 = firstName.concat(lastName);
 console.log( fullName1);
 }
-
-
 
 function assignment3(){
   
@@ -64,16 +29,29 @@ const s="java script is fun"
 console.log(s.slice(5,11))
 }
 function ssplit(){
-// Split comma list &amp; alert second item
+// 4.   Split comma list &amp; alert second item
 // Prompt for a comma-separated list (example input: apple,banana,cherry). Use
 // .split(&#39;,&#39;) to make an array and alert the second item.
 
 let fruit=prompt(" enter fruits name")
 console.log(fruit.split(' '))
-alert(" second item is"+arr[1])
+alert(" second item is"+fruit[1])
 }
+function que5(){
+// 5. Reverse words and show result
+// Prompt for a short sentence, split it into words, reverse the words array
+// (.reverse()), join the words back with spaces (.join(&#39; &#39;)) and alert the reversed
+// sentence.
 
+let sentence= prompt(" enter any word")
+let word=sentence.split(" ")
+let reverse=word.reverse();
+let reversedSentence = reversedWord.join(" ");
+alert(" reversedSentence")
+
+}
+ccount()
+Que2()
 assignment3()
 ssplit()
-ccount()
-Que3()
+que5()
