@@ -17,11 +17,13 @@ let box1=()=>{
    let divtag=document.querySelector('#main');
    divtag.style.backgroundColor="red"
 }
- let box2=()=>{
-   let divtag=document.querySelector('#main');
-   divtag.style.backgroundColor="yellow"
-}
+//  let box2=()=>{
+//    let divtag=document.querySelector('#main');
+//    divtag.style.backgroundColor="yellow"
+// }
 let box3=()=>{
    let divtag=document.querySelector('#main');
-   divtag.style.backgroundColor="green"
+   divtag.style.backgroundImage="url('download.jpg')"
+   divtag.style.backgroundSize="cover"
+   divtag.style.backgroundRepeat="no-repeat"
 }
