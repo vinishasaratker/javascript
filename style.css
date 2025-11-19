@@ -20,3 +20,59 @@
     width: 200px;
     height: 70px;
 }
+#right{
+    width: 300px;
+    height: 95vh;
+    border: 1px splid black;
+    display: flex;
+    flex-direction: column;
+    background-color: aquamarine;
+
+}
+ .h7{
+    width: 300px;
+    background-color: burlywood;
+    height: 400px;
+      background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+ .h8{
+    width: 300px;
+    background-color: #ff9811;
+    height: 400px;
+      background-repeat: no-repeat;
+    background-size: cover;
+}
+
+ .h9{
+    width: 300px;
+    background-color: rgb(237, 248, 30);
+    height: 400px;
+      background-repeat: no-repeat;
+    background-size: cover;
+}
+
+ .h10{
+    width: 300px;
+    background-color: rgb(135, 205, 222);
+    height: 400px;
+      background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+#left{
+
+        width:1200px;
+    height: 95vh;
+    border: 1px splid black;
+    background-color: rgba(245, 245, 220, 0.756);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.big{
+    display: flex;
+}
