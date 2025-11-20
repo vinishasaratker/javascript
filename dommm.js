@@ -44,7 +44,7 @@ let button=()=>{
 //    ptag.style.color="red";
 
 let but1=()=>{
-  let my=document.getElementById('list')
+  let my=document.getElementById('#list')
   my.innerHTML=`
  <ul>
         <li>mango</li>
@@ -92,3 +92,14 @@ let leftimage4=()=>{
    let lm4=document.querySelector('#left')
      lm4.style.backgroundImage="url('car22.jpg')"
 }
+
+
+let vini=()=>{
+   let okk=document.querySelector('#img')
+   okk.src="bike.jpg"
+}
+let but2=()=>{
+   let hy=document.querySelector('#inp').value
+   alert(` welcom ${hy}`)
+}
+
