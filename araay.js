@@ -19,7 +19,7 @@ function que1(){
 // Create an array of 4 fruits, e.g. [&quot;apple;banana&quot;,; mango;
 // ,&quot;grapes&quot;]. Use console.log to print the array and also log its .length.
 
-let fruits=["apple","banana","mango","srapes"];
+let fruits=["apple","banana","mango","grapes"];
 console.log("fruit array is",fruits);
 console.log("length of fruit array is ",fruits.length);
 }

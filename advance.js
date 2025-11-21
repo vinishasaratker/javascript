@@ -135,8 +135,6 @@ let printCity = (index, city) => {
 for (let i = 0; i< cities.length; i++) {
     printCity(i,cities[i]);
 }
-
-
 }
 que1();
 que2();

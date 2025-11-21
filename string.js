@@ -48,7 +48,7 @@ function Que2(){
 // Hello, &lt;fullName&gt;.
 let firstname=prompt(" enter your first name")
 let secondname=prompt(" enter your last name")
-let fullName1 = firstName.concat(" ", lastName);
+let fullName1 = firstname.concat(" ", lastName);
 
 console.log( fullName1);
 }
