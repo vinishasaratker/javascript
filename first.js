@@ -27,8 +27,8 @@ function vinisha(){
  var b="5"
  console.log(v+b)// answer will be undefined5
  // second priority number
- var p=8
- var n=true
+ var p=8;
+ var n=true;
  console.log(p+n)// answer will be 9 becoz true ko 1 me conver kr deta hai 
 }
 function aru(){
