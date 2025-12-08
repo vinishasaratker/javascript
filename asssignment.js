@@ -14,7 +14,7 @@ console.log(" sum is"+(a+b))
 //3. Ask the user for two numbers with prompt(), convert to Number, and print their sum in
 //console.log.
  var num1 = prompt("Enter first number:");
- varnum2 = prompt("Enter second number:");
+ var num2 = prompt("Enter second number:");
 num1 = Number(num1);
 num2 = Number(num2);
 
@@ -26,7 +26,7 @@ console.log("The sum is " + sum);
 //template literal.
 var v1="hello"
 var v2="vinisha"
-console.log(v1+v2)
+console.log(`v1+v2`)
 //5. Show the difference between ++i and i++ by logging before and after
 var p=8
 console.log(p++)

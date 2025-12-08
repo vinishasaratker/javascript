@@ -53,15 +53,13 @@ let fullName1 = firstname.concat(" ", lastName);
 console.log( fullName1);
 }
 
-
-
 function assignment3(){
-  
 // 3. Extract with .slice()
 // Given the string const s = JavaScript is fun; extract the
 //  substring &quot;Script&quot; and console.log it.
+
 const s="java script is fun"
-console.log(s.slice(5,11))
+console.log(s.slice(6,12))
 }
 function ssplit(){
 // Split comma list &amp; alert second item

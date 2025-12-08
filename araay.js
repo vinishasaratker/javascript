@@ -62,14 +62,13 @@ function que5(){
 let arr2=["vini","pihu","diksha","kiru"];
 console.log("array is",arr2);
 arr2.push("khushi");
-console.log(" we adds last in push operatin",arr2);
+console.log(" we adds last in push operation",arr2);
 arr2.pop();
 console.log("removed last elemnt of arry ",arr2);
 arr2.unshift("priya");
 console.log("we added a name in first",arr2);
 arr2.shift();
 console.log("removed element from first",arr2);
-
 }
 que1();
 que2();
