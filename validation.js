@@ -19,6 +19,7 @@ let valid = () => {
         return false;
     }
 
+
     // Number validation
     else  if (errnumber === "") {
         enumber.innerHTML = "Please enter your number";

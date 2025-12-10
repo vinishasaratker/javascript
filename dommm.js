@@ -5,6 +5,7 @@ let jstext=()=>{
   // agr hum button par click krenge tab yeh text show honga 
     h1tag.innerHTML="<u>hyy this is backend text</u>";
    let ptag=  document.querySelector('.para');
+   
    ptag.style.color="red";
 
 //    <!-- cammel case ka use krna hai properties ke liye 1st element small honga or 
