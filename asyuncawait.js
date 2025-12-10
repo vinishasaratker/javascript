@@ -1,4 +1,4 @@
-
+// async ---await ka use krte hum hamare asynchronous code ko synchronous behaviour  bta skte hai 
 
 async function getdata(){
 setTimeout(function()

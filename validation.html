@@ -4,25 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="validation.css">
 </head>
 <body>
 
+    <main id="page1">
+        <div id="bigbox">
+            <div id="head">
+                <h2> Regestration form</h2>
+            </div>
+            <div id="formstart">
+        <form action="success.html" id="formm">
+            <div>
     <p id="errname"></p>
-    Enter name: <input type="text" id="name"><br><br>
-
+   
+   <label for=""> Enter name </label>  <br><br>
+   
+ <input type="text" id="name"><br><br></div>
+<div>
     <p id="errnumber"></p>
-    Enter number: <input type="number" id="number"><br><br>
-
+   <label for=""> Enter number </label> <br> <br><input type="number" id="number"><br><br>
+</div>
+<div>
     <p id="erremail"></p>
-    Enter email: <input type="text" id="email"><br><br>
-
+    <label for=""> Enter email </label> <br><br> <input type="text" id="email"><br><br>
+</div>
+<div>
     <p id="errpassward"></p>
-    Enter password: <input type="password" id="passward"><br><br>
-
+    <label for=""> Enter passward </label><br><br> <input type="password" id="passward"><br><br>
+</div>
+<div>
     <p id="errcpassward"></p>
-    Enter confirm password: <input type="password" id="cpassward"><br><br>
+    <label for=""> Enter confirm passward </label> <br><br> <input type="password" id="cpassward"><br><br>
+</div>
+<div><br><br>
+    <input type="submit" onclick="return valid()" id="sub">
+    </div>
+    </div>
+</form>
 
-    <input type="submit" onclick="return valid()">
+</div>
+    </main>
 
     <script src="validation.js"></script>
 </body>

@@ -88,3 +88,4 @@ localStorage.SeteItem("num1",errnumber)
 localStorage.SeteItem("email1",erremail)
 localStorage.SeteItem("pass1",errpass)
 }
+

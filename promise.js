@@ -34,11 +34,11 @@
 
 // **** promise chainn
 
-let promise5=new Promise((resolvem,reject)=>
+let promise5=new Promise((resolve,reject)=>
 {
     let success=false;
     if(success){
-        resolvem(10)   }
+        resolve(10)   }
 
     else{  reject(-6)}
 })
