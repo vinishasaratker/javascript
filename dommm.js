@@ -14,6 +14,7 @@ let jstext=()=>{
    ptag.style.backgroundColor="yellow";
    ptag.style.fontWeight="600"
 }
+
 let box1=()=>{
    let divtag=document.querySelector('#main');
    divtag.style.backgroundColor="red";
