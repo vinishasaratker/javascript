@@ -34,26 +34,52 @@
 
 // **** promise chainn
 
-let promise5=new Promise((resolve,reject)=>
-{
-    let success=false;
-    if(success){
-        resolve(10)   }
+// let promise5=new Promise((resolve,reject)=>
+// {
+//     let success=false;
+//     if(success){
+//         resolve(10)   }
 
-    else{  reject(-6)}
-})
-promise5.then((message)=>{
-console.log(" first messsage: "+message)
-return 30;
-})
-.then((message)=>{
-    console.log("second message :" + message)
-    return 70;
+//     else{  reject(-6)}
+// })
+// promise5.then((message)=>{
+// console.log(" first messsage: "+message)
+// return 30;
+// })
+// .then((message)=>{
+//     console.log("second message :" + message)
+//     return 70;
 
+// })
+// .then((message)=>{
+//     console.log("third message :"+message)
+// })
+// .catch((error)=>{
+//     console.error(error)
+// })
+
+
+
+// let promise=new Promise(
+//     (resolve,reject)=>{
+//         console.log("hyyy")
+//         //resolve(56)
+//         reject("errrrorr")
+//     }
+// )
+
+
+const getPromise=()=>{
+    return new Promise((resolve,reject)=>{
+        console.log("i am a promise")
+        resolve("success")
+       // reject("rreeee")
+    })
+}
+let promise=getPromise()
+promise.then((res)=>{
+    console.log(" promise full  filled")
 })
-.then((message)=>{
-    console.log("third message :"+message)
-})
-.catch((error)=>{
-    console.error(error)
+promise.catch((err)=>{
+    console.log("errorr  is here")
 })
