@@ -68,7 +68,7 @@ function ssplit(){
 
 let fruit=prompt(" enter fruits name")
 console.log(fruit.split(' '))
-alert(" second item is"+arr[1])
+alert(" second item is.."+arr[1])
 }
 
 assignment3()
