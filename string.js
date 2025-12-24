@@ -58,8 +58,8 @@ function assignment3(){
 // Given the string const s = JavaScript is fun; extract the
 //  substring &quot;Script&quot; and console.log it.
 
-const s="java script is fun"
-console.log(s.slice(6,12))
+const s="java script is fun."
+console.log(s.slice(9,12))
 }
 function ssplit(){
 // Split comma list &amp; alert second item
@@ -74,4 +74,4 @@ alert(" second item is.."+arr[1])
 assignment3()
 ssplit()
 ccount()
-Que3()
+Que3();
