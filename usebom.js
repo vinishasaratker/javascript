@@ -19,15 +19,15 @@
 
             let age =prompt(" enter your age")
 if (age>=18){
-    alert(" you can vote")
+    alert(" you can vote.")
 }
 else(
-    alert(" you cant vote")
+    alert(" you cant vote.")
 )
  
 let number=prompt(" enter any number")
 if(number>0){
-    alert(" number is positive")
+    alert(" number is positive.")
 }
 else if(number==0){
     alert(" number is zero")
@@ -43,7 +43,7 @@ alert("sum of a+b ="+(a+b))
 alert("sum of"+a + "+"+b+"="+(a+b))
 
 //prompt---
- let ans=prompt(" hi vini")
+ let ans=prompt(" hi vinisha")
  alert(ans)
 }
 bom();
