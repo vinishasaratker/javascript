@@ -30,10 +30,10 @@ if(number>0){
     alert(" number is positive.")
 }
 else if(number==0){
-    alert(" number is zero")
+    alert(" number is zero .")
 }
 else if(number<0){
-    alert(" number is negative")
+    alert(" number is negative.")
 }
 
 function  bom(){
@@ -43,7 +43,7 @@ alert("sum of a+b ="+(a+b))
 alert("sum of"+a + "+"+b+"="+(a+b))
 
 //prompt---
- let ans=prompt(" hi vinisha")
+ let ans=prompt(" hi vinisha..")
  alert(ans)
 }
 bom();
