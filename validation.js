@@ -20,9 +20,9 @@ let valid = () => {
     }
 
 
-    // Number validation
+    // Number validation 
     else  if (errnumber === "") {
-        enumber.innerHTML = "Please enter your number";
+        enumber.innerHTML = "Please enter your number..";
         enumber.style.color = "red";
         return false;
     }
