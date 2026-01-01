@@ -54,7 +54,7 @@ let valid = () => {
         ecpass.style.color = "red";
         return false;
     }
-
+// agr number 10 digits ka nhi h to  
     else if(errnumber.length!=10){
         enumber.innerHTML = "Please enter your  valid number";
         return false;
