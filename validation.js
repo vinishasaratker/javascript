@@ -18,23 +18,19 @@ let valid = () => {
         enam.style.color = "red";
         return false;
     }
-
-
     // Number validation 
     else  if (errnumber === "") {
         enumber.innerHTML = "Please enter your number..";
         enumber.style.color = "red";
         return false;
     }
-
     // Email validation
      else if (erremail === "") {
         eemail.innerHTML = "Please enter your email";
         eemail.style.color = "red";
         return false;
     }
-
-    // Password validation
+// Password validation
      else if (errpass === "") {
         epass.innerHTML = "Please enter your password";
         epass.style.color = "red";
