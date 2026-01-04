@@ -39,6 +39,7 @@ console.log(map);
 objmaps=()=>{
     const myobject={
         js:"javascript",
+
         cpp:"c++",
         java:"javaprogramming",
         node:"react"
@@ -46,9 +47,10 @@ objmaps=()=>{
     for (const key in myobject) {
         // only keys print hongi
        // console.log(key)
+       
         //console.log(myobject[key]) 
         // keys ke sath values bhiprint hongi 
-        console.log(`${key} shortcut is for ${myobject[key]}`)
+        console.log(`${key} shortcut is for ${myobject[key]}`);
     }
 }
 
