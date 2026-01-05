@@ -47,13 +47,13 @@ function passwardchecking(){
 function checkingnumber(){
   let number=prompt(" enter any number")
   if(number>0){
-    alert(" number is positive")
+    alert(" number is positive");
   }
   else if(number<0){
-    alert(" number is negative")
+    alert(" number is negative");
   }
     else if(number==0){
-    alert(" number is zero")
+    alert(" number is zero");
   }
 }
 eligibility()
