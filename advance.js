@@ -111,7 +111,7 @@ que9=()=>{
 //     9) Make an array of marks.
 // Use a for loop to count how many marks are greater than 50 using simple
 // if–else.
-let marks=[67,89,54,32,90,21,34,99];
+let marks=[67,89,54,32,90,21,34,99,88,9,0];
 let count=0;
 for(let i=0;i<marks.length;i++){
     if(marks[i]>50){
