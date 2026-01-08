@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Date: <select >
+    <script>
+        for(var i=1;i<=31;i++){
+            document.write("<option>",i,"</option>");
+        }
+    </script>
+    </select>
+    Month:
+    <select >
+    <script>
+        for(var i=1;i<12;i++){
+            document.write("<option>",i,"</option>");
+        }
+    </script>
+    </select>
+    Year:
+    <select >
+    <script>
+        for(var i=1980;i<2026;i++){
+            document.write("<option>",i,"</option>");
+        }
+    </script>
+    </select> -->
+
+
+<!-- 
+
+    <script>
+let i=1;
+do{
+    document.write("<h3>",i,"</h3>");
+    i++;
+}
+while(i<10);
+
+    </script> -->
+
+
+    <script>
+        const student={
+            "rollno":121,
+            "name":"meena",
+            "city":"bhopal",
+            "fees":45566
+        }
+        //kisi bhi object kikey find krke deta hai
+        for(var mykey in student){
+            document.write("<h1>",mykey,"=",student[mykey],"</h1>");
+        }
+
+        const info=["vini",20,"uit-rgpv","bhopal"];
+        for(var mykey in info){
+            document.write ("<h1>",mykey,"=",info[mykey],"<h1>");
+        }
+
+        const name="vinisha from betul";
+        for(var mykey in name){
+            document.write ("<h1>",mykey,"=",name[mykey],"<h1>");
+        }
+    </script>
+</body>
+</html>
