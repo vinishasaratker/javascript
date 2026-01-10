@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<script> 
+        function display(){
+            // value change ho rhi hai 
+document.getElementById("demo").innerHTML="hyyy";
+}
+
+function display2(){
+// attribute ki value change ho rhi hai yha se 
+document.getElementById("second").value="indore";
+}
+
+function display3(){
+  const myObj=  document.getElementById("third");
+  myObj.style.width="300px";
+    myObj.style.height="300px";
+  myObj.style.borderRadius="50%";
+  myObj.style.color="red";
+  myObj.style.backgroundColor="yellow";
+  myObj.style.lineHeight="10";
+  myObj.stle.margin="auto";
+  myObj.style.fontSize="30px";
+myObj.style.paddingLeft="50px";
+}
+     
+function display4(){
+    const myObj=  document.getElementById("third");
+  myObj.style.width="300px";
+    myObj.style.height="300px";
+  myObj.style.borderRadius="50%";
+  myObj.style.color="black";
+  myObj.style.backgroundColor="blue";
+  myObj.style.lineHeight="10";
+  myObj.stle.margin="auto";
+  myObj.style.fontSize="30px";
+myObj.style.paddingLeft="50px";
+}
+function display5(){
+    const myObj=  document.getElementById("third");
+  myObj.style.width="300px";
+    myObj.style.height="300px";
+  myObj.style.borderRadius="50%";
+  myObj.style.color="white";
+  myObj.style.backgroundColor="black";
+  myObj.style.lineHeight="10";
+  myObj.style.margin="auto";
+  myObj.style.fontSize="30px";
+myObj.style.paddingLeft="50px";
+myObj.innerHTML="we learn js";
+}
+   
+
+    </script>
+<body>
+    <button onclick="display()"> click here</button>
+    <h1 id="demo"> welcomw !</h1>
+   
+    
+    enter city :<input type="text" value="bhopal" id="second">
+    <button onclick="display2()"> clickkkk..</button>
+    <br/> <br/> <br/> <br/>
+<button onclick="display3()"> color change button </button>
+   <br/> <br/> <br/> <br/>
+   <button onclick="display4()"> clickk  change color blue</button>
+      <br/> <br/> <br/> <br/>
+  <button onclick="display5()"> clickk  change color purpule</button>
+    <h1 id="third"> welcome  to mmy PC </h1>
+</body>
+</html>
