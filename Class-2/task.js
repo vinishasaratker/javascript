@@ -13,7 +13,7 @@ let calculation = () => {
         bmr = (10 * weight) + (6.25 * height) - (5 * age) - 161;
     }
 
-    document.getElementById("demo").innerHTML = "Your BMR is : " + bmr;
-};
+document.getElementById("demo").innerHTML = "Your BMR is : " + bmr;
+}
 
 document.getElementById("btn1").addEventListener("click", calculation);
