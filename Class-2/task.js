@@ -3,8 +3,7 @@ let calculation = () => {
     let age = Number(document.getElementById("age").value);
     let height = Number(document.getElementById("height").value);
     let weight = Number(document.getElementById("weight").value);
-
-    let gender = document.querySelector('input[name="gender"]:checked').value;
+   let gender = document.querySelector('input[name="gender"]:checked').value;
 
     let bmr;
     if (gender === "male") {
