@@ -50,8 +50,8 @@ let reversedSentence = reversedWord.join(" ");
 alert(" reversedSentence")
 
 }
-ccount()
-Que2()
+ccount();
+Que2();
 assignment3()
 ssplit()
 que5()
