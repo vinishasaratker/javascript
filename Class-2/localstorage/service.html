@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        function logout(){
+            localStorage.clear();
+        }
+    </script>
+     <a href="index.html">home page .</a>
+      <a href="about.html"> about page .</a>
+        <a href="service.html">service page .</a>
+          <a href="contact.html">contact  page .</a>
+          <h2> our service page </h2>
+          <script>
+            document.write(localStorage.getItem("name"));
+          </script>
+          email:
+          <script>
+            document.write(localStorage.getItem("name"));
+          </script>
+
+          <button onclick="logout()"> logout </button>
+</body>
+</html>

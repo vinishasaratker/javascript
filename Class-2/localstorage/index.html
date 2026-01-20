@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+
+        function userLogin(){
+            let myname=document.getElementById("nm").value;
+            let email=document.getElementById("email").value;
+            localStorage.setItem("name", myname)
+            localStorage.setItem("email",email)
+        }
+    </script>
+
+
+    <a href="index.html">home page .</a>
+      <a href="about.html"> about page .</a>
+        <a href="service.html">service page .</a>
+          <a href="contact.html">contact page .</a>
+
+          <h2> wellcome to home page </h2>
+          <h1> user login </h1>
+          enter naME  :<input type="text" id="nm">  <br>
+          enter email: <input type="text" id="email">  <br>
+          <br>
+          <button onclick="userLogin()"> loginn  </button>
+</body>
+</html>
