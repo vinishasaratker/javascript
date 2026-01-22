@@ -13,6 +13,7 @@ async function dataDisplay(){
     table+=`<tr>
     <td> ${key.empno}</td>
       <td>${key.name} </td>
+      
         <td> ${key.city}</td>
           <td> ${key.salary}</td>
           <tr/>
