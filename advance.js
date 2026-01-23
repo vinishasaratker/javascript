@@ -1,6 +1,7 @@
 let que1=()=>{
 //     1) Create an array of 5 numbers and use a for loop to print each number
 // using an arrow function inside the loop.
+
 let arr2=["vini","motu","nisha","sonu","bhooshan"];
 for(let i=0;i<arr2.length;i++){
     console.log("array elemnts are  "+arr2[i]);

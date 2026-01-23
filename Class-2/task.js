@@ -16,3 +16,4 @@ document.getElementById("demo").innerHTML = "Your BMR is : " + bmr;
 }
 
 document.getElementById("btn1").addEventListener("click", calculation);
+
