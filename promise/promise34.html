@@ -12,17 +12,23 @@
 
 if(gooddevelope){
     setTimeout(()=>{
-        resolve("goood") 
+        resolve("goood") ;
     })
    
 }
 else{
-    reject("bad")
+    reject("bad");
 }
 
 
 })
 console.log(promise)
+// promise ko comsume krna promise.then.catch
+promise.then((result)=>{
+console.log(result)
+}).catch((err)=>{
+console.log(err);
+})
      </script>
    
     
