@@ -1,6 +1,7 @@
 let table=`<table borderr=2 width="600" bgcolor="yellow">
 <tr>
 <th> EMPno</th>
+
 <th> NAME </th>
 <th> CITY</th>
 <th>  SALARY </th>
@@ -11,7 +12,7 @@ async function dataDisplay(){
  const data=await obj.json();
  data.map((key)=>{
     table+=`<tr>
-    
+
     <td> ${key.empno}</td>
       <td>${key.name} </td>
       
