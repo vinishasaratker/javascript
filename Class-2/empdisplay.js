@@ -11,6 +11,7 @@ async function dataDisplay(){
  const data=await obj.json();
  data.map((key)=>{
     table+=`<tr>
+    
     <td> ${key.empno}</td>
       <td>${key.name} </td>
       

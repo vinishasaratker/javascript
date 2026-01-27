@@ -48,6 +48,7 @@ console.log(fruit);
 
 }
 function que4(){
+    
 //  4. concat() to merge arrays Create two small arrays of colors and use concat() 
 // to merge them into one array; console.log the merged array.
 let color1=["pink","blue","black","purpule","white"];
