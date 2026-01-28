@@ -14,8 +14,8 @@ function Que2(){
 // Prompt the user for firstName and lastName. Use .concat() to form fullName
 // (and also show concatenation using +). Alert or console.log the message:
 // Hello, &lt;fullName&gt;.
-let firstname=prompt(" enter your first name")
-let secondname=prompt(" enter your last name")
+let firstname=prompt(" enter your first name");
+let secondname=prompt(" enter your last name");
 let fullName1 = firstname.concat(lastName);
 console.log( fullName1);
 }
@@ -25,8 +25,8 @@ function assignment3(){
 // 3. Extract with .slice()
 // Given the string const s = JavaScript is fun; extract the
 //  substring &quot;Script&quot; and console.log it.
-const s="java script is fun"
-console.log(s.slice(6,12))
+const s="java script is fun";
+console.log(s.slice(6,12));
 }
 function ssplit(){
 // 4.   Split comma list &amp; alert second item
