@@ -34,8 +34,8 @@ function ssplit(){
 // .split(&#39;,&#39;) to make an array and alert the second item.
 
 let fruit=prompt(" enter fruits name")
-console.log(fruit.split(' '))
-alert(" second item is"+fruit[1])
+console.log(fruit.split(' '));
+alert(" second item is"+fruit[1]);
 }
 function que5(){
 // 5. Reverse words and show result
