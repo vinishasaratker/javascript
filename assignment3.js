@@ -43,11 +43,11 @@ function que5(){
 // (.reverse()), join the words back with spaces (.join(&#39; &#39;)) and alert the reversed
 // sentence.
 
-let sentence= prompt(" enter any word")
-let word=sentence.split(" ")
+let sentence= prompt(" enter any word");
+let word=sentence.split(" ");
 let reverse=word.reverse();
 let reversedSentence = reversedWord.join(" ");
-alert(" reversedSentence")
+alert(" reversedSentence");
 
 }
 ccount();
