@@ -5,7 +5,7 @@
 h1{
     color: aliceblue;
     font-size: 30px;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 body{
     background-color: #634242;
@@ -46,6 +46,26 @@ body{
     color: white;
     border-radius: 15px;
     border: none;
-    margin-top: 50px;
+    margin-top: 30px;
     font-weight: 600;
+}
+#new{
+    padding: 1rem;
+    font-size: 30px;
+    background-color:#7D8B6F;
+    color: white;
+    border-radius: 15px;
+    border: none;
+   
+    font-weight: 600;
+}
+
+#msg{
+    color: #e7eced;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.hide{
+    display: none;
 }
