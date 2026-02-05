@@ -26,8 +26,6 @@ const resetgame=()=>{
 }
 
 
-
-
 boxes.forEach((box)=>{
     box.addEventListener("click",()=>{
         console.log("clickable box ");
@@ -80,9 +78,9 @@ if(position1value===position2value && position2value===position3value){
 console.log("winner",position1value);
 
 
-showWinner(position1value);
-          }
-            }
+      showWinner(position1value);
+                  }
+                }
                 }
 
 
