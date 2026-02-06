@@ -61,13 +61,11 @@ const enableboxes=()=>{
     }
 }
 
-
 const showWinner=(winner)=>{
     msg.innerHTML=`congratulation ! winner  is ${winner}`;
 msgcontainer.classList.remove("hide");
 disabled();
 }
-
 const checkWinner=()=>{
     for(let pattern of winPattern){
         let position1value=boxes[pattern[0]].innerText;
@@ -85,7 +83,5 @@ console.log("winner",position1value);
 
 
 }
-
-
 newGamebutton.addEventListener("click" ,resetgame)
 resetbutton.addEventListener("click",resetgame)
