@@ -1,6 +1,6 @@
 let boxes=document.querySelectorAll(".box");
-let resetbutton=document.querySelector("#reset")
-let newGamebutton=document.querySelector("#new")
+let resetbutton=document.querySelector("#reset");
+let newGamebutton=document.querySelector("#new");
 let msgcontainer=document.querySelector(".msg-container");
 let message=document.querySelector("#msg");
 
