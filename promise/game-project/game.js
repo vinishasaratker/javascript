@@ -22,7 +22,7 @@ const winPattern=[
 const resetgame=()=>{
      turnO=true;
     enableboxes();
-    msgcontainer.classList.add("hide")
+    msgcontainer.classList.add("hide");
 }
 
 
@@ -32,7 +32,7 @@ boxes.forEach((box)=>{
         
         // if player o ki tern h to 
         if(turnO){
-            box.innerHTML="O"
+            box.innerHTML="O";
             turnO=false;
         }
         //  x player ki tern me click krne par x print ho jayenga 
