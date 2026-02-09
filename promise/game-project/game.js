@@ -24,8 +24,6 @@ const resetgame=()=>{
     enableboxes();
     msgcontainer.classList.add("hide");
 }
-
-
 boxes.forEach((box)=>{
     box.addEventListener("click",()=>{
         console.log("clickable box ");
@@ -44,8 +42,6 @@ boxes.forEach((box)=>{
         checkWinner();
     })
 })
-
-
 
 const disabled=()=>{
     for(let box of boxes){
