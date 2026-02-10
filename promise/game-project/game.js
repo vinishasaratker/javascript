@@ -76,8 +76,6 @@ console.log("winner",position1value);
                   }
                 }
                 }
-
-
 }
-newGamebutton.addEventListener("click" ,resetgame)
-resetbutton.addEventListener("click",resetgame)
+newGamebutton.addEventListener("click" ,resetgame);
+resetbutton.addEventListener("click",resetgame);
