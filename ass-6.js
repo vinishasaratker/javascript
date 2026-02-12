@@ -13,8 +13,6 @@
       document.getElementById("answer").innerHTML = ans;
       
 }
-
-
 que2=()=>{
 //     2 Take an input field where the user enters a word.
 // Using a for loop, check if the word contains the letter “a” or not.

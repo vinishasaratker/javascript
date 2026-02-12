@@ -5,8 +5,6 @@ function ccount(){
 let word=prompt(" enter a word");
 let count=word.length;
 alert(count);
-
-
 }
 
 function Que2(){
@@ -37,6 +35,7 @@ let fruit=prompt(" enter fruits name")
 console.log(fruit.split(' '));
 alert(" second item is"+fruit[1]);
 }
+
 function que5(){
 // 5. Reverse words and show result
 // Prompt for a short sentence, split it into words, reverse the words array
@@ -50,6 +49,7 @@ let reversedSentence = reversedWord.join(" ");
 alert(" reversedSentence");
 
 }
+
 ccount();
 Que2();
 assignment3()
