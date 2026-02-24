@@ -34,7 +34,6 @@ break;
             document.querySelector("#answer1").innerHTML = "not found";
     }
 }
-
 que3=()=>{
 //     3 Take an input field for age.
 // On button click, check using if–else:
@@ -49,5 +48,6 @@ if(age>=18){
 else{
     document.querySelector("#answer3").innerHTML = "not adult ";
 }
+
 }
 
