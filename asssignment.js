@@ -18,6 +18,7 @@ console.log(" sum is"+(a+b))
 num1 = Number(num1);
 num2 = Number(num2);
 
+
 // Calculate and print the sum
 let sum = num1 + num2;
 console.log("The sum is " + sum);
