@@ -40,13 +40,14 @@ que3=()=>{
 //  If age &gt;= 18 → show “Adult”
 //  Else → show “Minor”
 // (Make sure to get input using getElementById().)**
+
 let age=Number(document.getElementById('inp3').value.trim());
 if(age>=18){
     document.querySelector("#answer3").innerHTML = "adult ";
 
 }
 else{
-    document.querySelector("#answer3").innerHTML = "not adult ";
+    document.querySelector("#answer3").innerHTML = "not adult .";
 }
 
 }
