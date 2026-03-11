@@ -44,7 +44,7 @@ let student=[
     {     name :"mahima",age:22  }
 ]
 for(let i=0;i<student.length;i++){
-    console.log("students nameis "+student[i].name)
+    console.log("students nameis "+student[i].name);
 }
 }
 que5=()=>{

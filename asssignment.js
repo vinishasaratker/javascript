@@ -25,9 +25,9 @@ console.log("The sum is " + sum);
 
 //4. Make a message 'Hello' and a name variable. Show concatenation using + and using a
 //template literal.
-var v1="hello"
-var v2="vinisha"
-console.log(`v1+v2`)
+var v1="hello";
+var v2="vinisha";
+console.log(`v1+v2`);
 //5. Show the difference between ++i and i++ by logging before and after
 var p=8
 console.log(p++)
@@ -37,6 +37,6 @@ console.log(++p)
 // 1. alert-- info dene ke liye  
 // prompt()--
 function  bom(){
-alert(" welcome to this website.. ")
+alert(" welcome to this website.. ");
 }
 bom();
