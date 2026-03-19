@@ -70,9 +70,7 @@ const checkWinner=()=>{
           if(position1value!="" && position2value!="" && position3value!=""){
 if(position1value===position2value && position2value===position3value){
 console.log("winner",position1value);
-
-
-      showWinner(position1value);
+   showWinner(position1value);
                   }
                 }
                 }
