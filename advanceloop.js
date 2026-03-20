@@ -35,7 +35,7 @@ console.log(map);
 //}
 }
 // object mapping 
-// object me  for of loopsuse nahi kr skte yeh loop lgana thodasa difficult hota hai to forin loop kausekr skte hai 
+// object me  for of loops use nahi kr skte yeh loop lgana thoda sa difficult hota hai to forin loop kausekr skte hai 
 objmaps=()=>{
     const myobject={
         js:"javascript",
@@ -49,7 +49,7 @@ objmaps=()=>{
        // console.log(key)
        
         //console.log(myobject[key]) 
-        // keys ke sath values bhiprint hongi 
+        // keys ke sath values bhi print hongi 
         console.log(`${key} shortcut is for ${myobject[key]}`);
     }
 }

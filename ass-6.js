@@ -1,18 +1,18 @@
  que1=()=>{
 // Take an input field where the user enters a number.
 // Use a for loop to print all even numbers from 1 to that number and show it in
-// a &lt;p&gt; tag using getElementById().
+//  tag using getElementById().
       let n=Number(document.getElementById('inp').value.trim());
       let ans=""
       for(let i=0;i<n;i++)
       {
      if(i%2==0){
     ans=ans+i+" ";
-    }
+      }
       }
       document.getElementById("answer").innerHTML = ans;
       
-}
+     }
 que2=()=>{
 //     2 Take an input field where the user enters a word.
 // Using a for loop, check if the word contains the letter “a” or not.

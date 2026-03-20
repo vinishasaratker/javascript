@@ -26,9 +26,11 @@ else{
 //     3) Create an object student with properties: name, age, city.
 // Use a for…in loop to print all keys and values.
 const student={
-    name:"mahi",
+
+ name:"mahi",
 age:"21",
 city:"betul"
+
 }
 for(let key in student){
 console.log(student[key]);
@@ -36,12 +38,12 @@ console.log(student[key]);
 }
 let que4=()=>{
 //     4) Make an array of 3 student objects.
-// Use a normal for loop to print each student&#39;s name using an arrow function to
-// format the text.
+// Use a normal for loop to print each student s name using an arrow function to
+
 let student=[
     {  name:"khushi",age:22    },
     {  name:"jyoti",age:27     },
-    {     name :"mahima",age:22  }
+    {  name :"mahima",age:22  }
 ]
 for(let i=0;i<student.length;i++){
     console.log("students nameis "+student[i].name);
