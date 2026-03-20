@@ -15,16 +15,14 @@ const funcc2=()=>{
     }   )
 }
 
-
 const funccc3=()=>{
     // ek array ke andr multiple objects declare krna 
     const mycountry=[
-                    {
-                     stae:"MADHYA PRADESH",
+                    {  stae:"MADHYA PRADESH",
                     language:"HINDI "
                      },
-        {
-        state:"MAHARASHTRA",
+
+        {    state:"MAHARASHTRA",
          language:"MARATHI"
         },
                 { state:"BIHAR",
@@ -32,7 +30,8 @@ const funccc3=()=>{
                  }
     ]
     mycountry.forEach(  (item)=>{
-       console.log(item.language); 
+       console.log("language is : "+item.language);
+       console.log("state are :" +item.state) ;
     })
 }
 funcc();

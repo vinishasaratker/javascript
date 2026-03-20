@@ -8,11 +8,7 @@
 // asynchronous code
 
 // let promise2=new Promise((reject,resolve)=>{
-//  setTimeout(function saymyname(){
-//     console.log("my name is vinisha")
-//  },2000)
-// }
-// )
+//  setTimeout(function saymyname(){ console.log("my name is vinisha") },2000) } )
 // let promise3=new Promise((resolve,reject)=>{
 // let success=true;
 // // let success=false  // bhi kr skte hai to catch block execute ho jayenga 

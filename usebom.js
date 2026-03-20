@@ -16,13 +16,13 @@
 //   2. parseInt() 
 //   3. parsefloat()
 
-
-            let age =prompt(" enter your age")
+ let age =prompt(" enter your age")
 if (age>=18){
     alert(" you can vote.")
 }
-else(
-    alert(" you cant vote.")
+
+    else(
+    alert(" you can't vote.")
 )
  
 let number=prompt(" enter any number")
@@ -37,7 +37,7 @@ else if(number<0){
 }
 
 function  bom(){
-let  a=5;
+let a=5;
 let b=6;
 alert("sum of a+b ="+(a+b))
 alert("sum of"+a + "+"+b+"="+(a+b))
@@ -47,5 +47,6 @@ alert("sum of"+a + "+"+b+"="+(a+b))
  alert(ans)
 }
 bom();
+
 
 

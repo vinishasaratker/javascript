@@ -3,14 +3,13 @@ function obbject(){
    // let arr=["vini",26,"bhOPAL"]
    // how to declare an objecct 
    // city name or age keys hai or keys unique hoti hai 
-   // agr same name ki key ho to ek key over right ho jayengi 
+   // agr same name ki key ho to ek key over right ho jati hai 
 
 //    let mydata={
 //     name:'vini',
 //     age:20,
 // city:"bhopal",
-// fruits:["apple","mango","banana"]
-//    }
+// fruits:["apple","mango","banana"]  }
 //    console.log(mydata.city)
 //    console.log("mydata")
 //    // enter krna object me kuchh or vo alphabet order me add ho jayenga 
@@ -23,6 +22,7 @@ function obbject(){
 let vini=()=>{
 return alert(`hello my "name "is 'vinisha ' saratker`)
 }
+
 
 
 }
