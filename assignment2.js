@@ -49,16 +49,18 @@ function checkingnumber(){
   if(number>0){
     alert(" number is positive");
   }
+
   else if(number<0){
     alert(" number is negative");
   }
     else if(number==0){
     alert(" number is zero");
   }
+
 }
-eligibility()
-passwardchecking()
-checkingnumber()
-creategrade()
+eligibility();
+passwardchecking();
+checkingnumber();
+creategrade();
 
 
