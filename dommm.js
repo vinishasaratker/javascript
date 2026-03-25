@@ -23,12 +23,14 @@ let box1=()=>{
 //    let divtag=document.querySelector('#main');
 //    divtag.style.backgroundColor="yellow"
 // }
+
 let box3=()=>{
    let divtag=document.querySelector('#main');
    divtag.style.backgroundImage="url('download.jpg')"
    divtag.style.backgroundSize="cover"
    divtag.style.backgroundRepeat="no-repeat"
-}
+   }
+
 let button=()=>{
    let vini=document.querySelector('.head')
    vini.style.color="red"
@@ -100,9 +102,9 @@ let vini=()=>{
    let okk=document.querySelector('#img')
    okk.src="bike.jpg";
 }
-let but2=()=>{
-   let hy=document.querySelector('#inp').value;
-   alert(` welcom ${hy}`);
+       let but2=()=>{
+       let hy=document.querySelector('#inp').value;
+       alert(` welcom ${hy}`);
 
-}
+       }
 

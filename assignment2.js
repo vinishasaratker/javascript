@@ -41,8 +41,6 @@ function passwardchecking(){
   }
  }
 
-
-
 //4. --Prompt for a number and alert whether it is positive, negative, or zero.
 function checkingnumber(){
   let number=prompt(" enter any number")
