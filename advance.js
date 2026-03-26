@@ -19,7 +19,7 @@ for(let i=0;i<arr3.length;i++)
         {
 console.log("long name length is greater than  "  +arr3[i]);}
 else{
-    console.log(" short name length is  5" +arr3[i]);}
+    console.log(" short name length is  5 " +arr3[i]);}
 }
 }
  let que3=()=>{

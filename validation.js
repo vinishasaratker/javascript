@@ -77,8 +77,6 @@ else if(errpass!=errcpass){
      epass.innerHTML = "Please enter  same  password";
      return false;
 }
-
-
 localStorage.SeteItem("nam",errname)
 localStorage.SeteItem("num1",errnumber)
 localStorage.SeteItem("email1",erremail)

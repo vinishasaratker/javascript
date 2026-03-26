@@ -45,8 +45,8 @@ fruit.unshift("papaya");
 console.log(fruit);
 fruit.shift();
 console.log(fruit);
-
 }
+
 function que4(){
     
 //  4. concat() to merge arrays Create two small arrays of colors and use concat() 
@@ -56,6 +56,7 @@ let color2=["green","silver","yellow","orange","red"];
 let color=color1.concat(color2);
 console.log("concat array is",color);
 }
+
 function que5(){
 //     5. Sequence demo
 // Starting with an array, perform push, pop, unshift, shift in that sequence and
