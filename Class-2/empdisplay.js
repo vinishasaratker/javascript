@@ -1,7 +1,6 @@
 let table=`<table borderr=2 width="600" bgcolor="yellow">
 <tr>
 <th> EMPno</th>
-
 <th> NAME </th>
 <th> CITY</th>
 <th>  SALARY </th>
@@ -19,13 +18,10 @@ async function dataDisplay(){
         <td> ${key.city}</td>
           <td> ${key.salary}</td>
           <tr/>
-
-    `
+ `
  })
 
  table+="</table>"
-
- document.getElementById("demo").innerHTML=table;
-
+document.getElementById("demo").innerHTML=table;
 }
 dataDisplay();

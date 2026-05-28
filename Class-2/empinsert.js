@@ -1,5 +1,4 @@
 document.getElementById("btn1").addEventListener("click", myInsert);
-
 async function myInsert() {
 
     let empno = document.getElementById("empno").value;
