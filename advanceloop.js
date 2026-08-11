@@ -5,10 +5,11 @@ let vini=()=>{
          }
          let fruit=["mango&apple"]
          for (const greet of fruit) {
-            console.log(`each charactoris ${greet}`)
+            console.log(`each charactor is ${greet}`)
             
          }
 }
+
 let motu=()=>{
     const name=["vujgfj","hiyy","ljga","opriya","gifi ji "]
     for (const namesare of name) {
@@ -35,7 +36,7 @@ console.log(map);
 //}
 }
 // object mapping 
-// object me  for of loops use nahi kr skte yeh loop lgana thoda sa difficult hota hai to forin loop kausekr skte hai 
+// object me  for of loops use nahi kr skte yeh loop lgana thoda sa difficult hota hai to for in loop ka use kr skte hai 
 objmaps=()=>{
     const myobject={
         js:"javascript",

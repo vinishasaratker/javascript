@@ -36,6 +36,8 @@ for(let key in student){
 console.log(student[key]);
 }
 }
+
+
 let que4=()=>{
 //     4) Make an array of 3 student objects.
 // Use a normal for loop to print each student s name using an arrow function to
